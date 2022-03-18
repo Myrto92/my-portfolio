@@ -44,3 +44,50 @@ body {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+p {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
+
+.container p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  box-sizing: border-box;
+}
+
+.container h2 {
+  font-size: 64px;
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+.container .btn-branding-outline {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.col {
+  padding: 60px;
+}
+
+.container.mb-5 {
+  margin-bottom: 3rem !important;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
