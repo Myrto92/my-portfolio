@@ -107,6 +107,9 @@ p {
   line-height: 80px;
 }
 
+.navbar-brand {
+  font-family: cursive;
+}
 .container h2 {
   color: var(--primary-color);
   font-size: 18px;
